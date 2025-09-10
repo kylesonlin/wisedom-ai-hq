@@ -47,7 +47,7 @@ const Navigation = () => {
               <Link to="/contact">
                 <Button variant="ghost" size="sm">Contact Sales</Button>
               </Link>
-              <a href="https://app.relationshipos.ai" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <a href="https://app.wisedom.ai" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Try RelationshipOS
               </a>
             </div>
@@ -75,7 +75,7 @@ const Navigation = () => {
               <Link to="/company" className="block px-3 py-2 text-foreground hover:text-primary transition-colors">Company</Link>
               <Link to="/contact" className="block px-3 py-2 text-foreground hover:text-primary transition-colors">Contact Sales</Link>
               <div className="pt-4">
-                <a href="https://app.relationshipos.ai" target="_blank" rel="noopener noreferrer" className="btn-primary w-full text-center">
+                <a href="https://app.wisedom.ai" target="_blank" rel="noopener noreferrer" className="btn-primary w-full text-center">
                   Try RelationshipOS
                 </a>
               </div>

@@ -67,7 +67,7 @@ const Products = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
-                    href="https://app.relationshipos.ai" 
+                    href="https://app.wisedom.ai" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn-primary inline-flex items-center justify-center"

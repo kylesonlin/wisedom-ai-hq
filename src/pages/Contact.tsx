@@ -82,7 +82,7 @@ const Contact = () => {
                 <h3 className="font-bold mb-4">Quick Actions</h3>
                 <div className="space-y-3">
                   <a 
-                    href="https://app.relationshipos.ai" 
+                    href="https://app.wisedom.ai" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block p-3 bg-primary/5 rounded-lg hover:bg-primary/10 transition-colors"
