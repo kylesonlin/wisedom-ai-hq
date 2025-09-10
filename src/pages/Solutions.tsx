@@ -14,7 +14,7 @@ const Solutions = () => {
               Enterprise Solutions
             </div>
             <h1 className="text-hero max-w-4xl mx-auto">
-              AI Solutions for Every Business Challenge
+              Solutions for Every Business Challenge
             </h1>
             <p className="text-corporate max-w-3xl mx-auto">
               Whether you're a C-suite executive, sales leader, or entrepreneur, 
@@ -38,7 +38,7 @@ const Solutions = () => {
                   <div>
                     <h2 className="text-3xl font-bold mb-4">For Executives</h2>
                     <p className="text-lg text-muted-foreground">
-                      Transform your leadership approach with AI-powered relationship intelligence 
+                      Transform your leadership approach with relationship intelligence 
                       that reveals strategic opportunities and strengthens key partnerships.
                     </p>
                   </div>
@@ -56,10 +56,16 @@ const Solutions = () => {
                       <p className="text-muted-foreground">Executive network expansion and influence tracking</p>
                     </div>
                   </div>
-                  <Button className="btn-primary">
-                    Schedule Executive Demo
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
+                  <a 
+                    href="https://app.wisedom.ai" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="btn-primary">
+                      Schedule Executive Demo
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                  </a>
                 </div>
                 <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-8">
                   <h4 className="font-bold mb-4">Executive Dashboard</h4>
@@ -120,7 +126,7 @@ const Solutions = () => {
                   <div>
                     <h2 className="text-3xl font-bold mb-4">For Sales Teams</h2>
                     <p className="text-lg text-muted-foreground">
-                      Accelerate your sales cycle with AI that identifies the best paths to prospects 
+                      Accelerate your sales cycle by identifying the best paths to prospects 
                       through your existing network and relationships.
                     </p>
                   </div>
@@ -138,10 +144,16 @@ const Solutions = () => {
                       <p className="text-muted-foreground">Sales pipeline optimization through network leverage</p>
                     </div>
                   </div>
-                  <Button className="btn-secondary">
-                    Boost Sales Performance
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
+                  <a 
+                    href="https://app.wisedom.ai" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button className="btn-secondary">
+                      Boost Sales Performance
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -156,7 +168,7 @@ const Solutions = () => {
                   <div>
                     <h2 className="text-3xl font-bold mb-4">For Entrepreneurs</h2>
                     <p className="text-lg text-muted-foreground">
-                      Build and scale your startup with AI-powered networking that connects you 
+                      Build and scale your startup with intelligent networking that connects you 
                       to investors, advisors, and strategic partners at the right moment.
                     </p>
                   </div>
@@ -174,10 +186,16 @@ const Solutions = () => {
                       <p className="text-muted-foreground">Customer and market validation through connections</p>
                     </div>
                   </div>
-                  <Button variant="ghost" className="btn-ghost">
-                    Scale Your Network
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
+                  <a 
+                    href="https://app.wisedom.ai" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="ghost" className="btn-ghost">
+                      Scale Your Network
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Button>
+                  </a>
                 </div>
                 <div className="bg-gradient-to-br from-accent/10 to-accent/20 rounded-2xl p-8">
                   <h4 className="font-bold mb-4">Growth Metrics</h4>
@@ -213,7 +231,7 @@ const Solutions = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Business?</h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Join thousands of professionals who are already leveraging AI to unlock 
+            Join thousands of professionals who are already leveraging relationship intelligence to unlock 
             the hidden potential in their networks.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -226,9 +244,15 @@ const Solutions = () => {
               Start Your Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
             </a>
-            <Button variant="ghost" className="btn-ghost">
-              Schedule Custom Demo
-            </Button>
+            <a 
+              href="https://app.wisedom.ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button variant="ghost" className="btn-ghost">
+                Schedule Custom Demo
+              </Button>
+            </a>
           </div>
         </div>
       </section>

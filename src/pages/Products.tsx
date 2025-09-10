@@ -14,10 +14,10 @@ const Products = () => {
               Wisedom Product Suite
             </div>
             <h1 className="text-hero max-w-4xl mx-auto">
-              AI-Powered Business Intelligence Products
+              Business Intelligence Products
             </h1>
             <p className="text-corporate max-w-3xl mx-auto">
-              Discover our comprehensive suite of AI tools designed to transform how your business 
+              Discover our comprehensive suite of tools designed to transform how your business 
               understands relationships, identifies opportunities, and drives growth.
             </p>
           </div>
@@ -36,7 +36,7 @@ const Products = () => {
                   </div>
                   <h2 className="text-4xl font-bold mb-4">RelationshipOS</h2>
                   <p className="text-xl text-muted-foreground">
-                    AI-powered relationship intelligence platform that helps you understand, 
+                    Relationship intelligence platform that helps you understand, 
                     manage, and leverage your professional network for better business outcomes.
                   </p>
                 </div>
@@ -75,9 +75,15 @@ const Products = () => {
                     Try RelationshipOS Free
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </a>
-                  <Button variant="ghost" className="btn-ghost">
-                    View Demo
-                  </Button>
+                  <a 
+                    href="https://app.wisedom.ai" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="ghost" className="btn-ghost">
+                      View Demo
+                    </Button>
+                  </a>
                 </div>
               </div>
 
@@ -119,7 +125,7 @@ const Products = () => {
             <h2 className="text-display mb-6">The Complete Wisedom Platform</h2>
             <p className="text-corporate max-w-3xl mx-auto">
               RelationshipOS is just the beginning. We're building a comprehensive ecosystem 
-              of AI-powered business intelligence tools.
+              of business intelligence tools.
             </p>
           </div>
 
@@ -130,8 +136,8 @@ const Products = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Closer</h3>
               <p className="text-muted-foreground mb-4">
-                AI-powered sales intelligence that helps close deals faster by understanding 
-                relationship dynamics and identifying the optimal path to agreement.
+                A sales platform that allows you to connect with clients and investors in your network 
+                without your manual oversight, creating meaningful relationships at scale.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
                 <span>2026</span>
@@ -145,8 +151,8 @@ const Products = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Legacy</h3>
               <p className="text-muted-foreground mb-4">
-                Comprehensive business intelligence that captures and preserves institutional 
-                knowledge, ensuring critical relationships and insights are never lost.
+                A platform dedicated to preserving your actual wisdom, capturing the essence of your 
+                decision-making and insights to create a lasting knowledge foundation.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
                 <span>2027</span>
@@ -160,8 +166,8 @@ const Products = () => {
               </div>
               <h3 className="text-xl font-bold mb-3">Synthesis</h3>
               <p className="text-muted-foreground mb-4">
-                Advanced AI that synthesizes all your business intelligence to provide 
-                strategic insights and recommendations for long-term growth.
+                The connection between software and a fully functioning digital brain, creating 
+                unprecedented integration between human intelligence and technological capability.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
                 <span>2028</span>
