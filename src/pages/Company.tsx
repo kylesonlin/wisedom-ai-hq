@@ -2,9 +2,6 @@ import Footer from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Briefcase, Award, Users, MapPin, TrendingUp } from 'lucide-react';
 
-// Logo imports for showcase  
-import wisedomPrismBrain from '@/assets/wisedom-logo-prism-brain.png';
-
 const Company = () => {
   return (
     <main className="min-h-screen pt-16">
@@ -23,31 +20,6 @@ const Company = () => {
               Join a team of visionary engineers, designers, and business leaders 
               who are reshaping how the world understands and leverages relationships.
             </p>
-          </div>
-        </div>
-      </section>
-
-          {/* Logo Showcase Section */}
-      <section className="py-24 bg-muted/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-display mb-6">New Wisedom Logo</h2>
-            <p className="text-corporate max-w-2xl mx-auto">
-              Here's the new Dark Side of the Moon inspired Wisedom logo with prismatic brain effect.
-              RelationshipOS will keep the existing command icon logo.
-            </p>
-          </div>
-
-          {/* Wisedom Logo */}
-          <div className="flex justify-center">
-            <div className="card-corporate text-center p-8 max-w-md">
-              <img src={wisedomPrismBrain} alt="Wisedom Prism Brain Logo" className="w-48 h-48 mx-auto mb-6 object-contain" />
-              <h3 className="text-2xl font-bold mb-4">Wisedom Prism Brain</h3>
-              <p className="text-muted-foreground">
-                Inspired by Dark Side of the Moon - a brain dispersing white light into a colorful spectrum, 
-                representing the transformation of raw data into intelligent insights.
-              </p>
-            </div>
           </div>
         </div>
       </section>
