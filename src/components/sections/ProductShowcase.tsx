@@ -26,7 +26,7 @@ const ProductShowcase = () => {
             </p>
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 mb-6">
               <p className="text-sm text-muted-foreground">
-                <strong>Starting at $99/month</strong> — less than what most spend on coffee, 
+                <strong>Starting at $300/month</strong> — less than what most spend on coffee, 
                 for intelligence that transforms how you do business.
               </p>
             </div>

@@ -7,7 +7,7 @@ const ROIComparison = () => {
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-6 py-3 bg-secondary/10 border border-secondary/20 rounded-full text-secondary font-medium mb-8">
             <Calculator className="mr-2 h-4 w-4" />
-            ROI Calculator
+            Human Assistant vs AI Comparison
           </div>
           <h2 className="text-display mb-8">Stop Feeling Scattered</h2>
           <p className="text-corporate max-w-3xl mx-auto">
@@ -71,8 +71,8 @@ const ROIComparison = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-4">
                 <span className="text-2xl">🤖</span>
               </div>
-              <h3 className="text-2xl font-bold mb-2">Wisedom AI</h3>
-              <div className="text-4xl font-black text-primary mb-2">$99-$599</div>
+              <h3 className="text-2xl font-bold mb-2">RelationshipOS</h3>
+              <div className="text-4xl font-black text-primary mb-2">$300</div>
               <p className="text-muted-foreground">per month</p>
             </div>
 
@@ -83,7 +83,7 @@ const ROIComparison = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Check className="h-5 w-5 text-primary flex-shrink-0" />
-                <span>Perfect memory & instant recall</span>
+                <span>Reliable memory & instant recall</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Check className="h-5 w-5 text-primary flex-shrink-0" />
@@ -101,8 +101,8 @@ const ROIComparison = () => {
 
             <div className="mt-8 pt-6 border-t border-primary/20">
               <div className="text-center">
-                <div className="text-lg font-semibold text-primary">Annual Cost: $1,188-$7,188</div>
-                <p className="text-sm text-muted-foreground mt-1">Up to 88% cost savings vs. traditional assistant</p>
+                <div className="text-lg font-semibold text-primary">Annual Cost: $3,600</div>
+                <p className="text-sm text-muted-foreground mt-1">94% cost savings vs. human assistant</p>
               </div>
             </div>
           </div>
@@ -112,9 +112,9 @@ const ROIComparison = () => {
         <div className="mt-20 text-center">
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="space-y-2">
-              <div className="text-4xl font-black text-primary">88%</div>
+              <div className="text-4xl font-black text-primary">94%</div>
               <div className="text-lg font-semibold">Cost Savings</div>
-              <p className="text-sm text-muted-foreground">vs. Executive Assistant</p>
+              <p className="text-sm text-muted-foreground">vs. Human Assistant</p>
             </div>
             <div className="space-y-2">
               <div className="text-4xl font-black text-secondary">24/7</div>

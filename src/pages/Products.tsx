@@ -128,13 +128,13 @@ const Products = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-secondary/10 rounded-xl mb-6">
                 <TrendingUp className="h-6 w-6 text-secondary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Future Opportunities</h3>
+              <h3 className="text-xl font-bold mb-3">Closer</h3>
               <p className="text-muted-foreground mb-4">
-                AI-powered opportunity detection that identifies potential partnerships, 
-                deals, and growth vectors within your network.
+                AI-powered sales intelligence that helps close deals faster by understanding 
+                relationship dynamics and identifying the optimal path to agreement.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
-                <span>In Development</span>
+                <span>2026</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </div>
             </div>
@@ -143,13 +143,13 @@ const Products = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-xl mb-6">
                 <Brain className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Advanced Analytics</h3>
+              <h3 className="text-xl font-bold mb-3">Legacy</h3>
               <p className="text-muted-foreground mb-4">
-                Enhanced business intelligence features that provide deeper insights 
-                into your professional network and relationship dynamics.
+                Comprehensive business intelligence that captures and preserves institutional 
+                knowledge, ensuring critical relationships and insights are never lost.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
-                <span>Coming Soon</span>
+                <span>2027</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </div>
             </div>
@@ -158,13 +158,13 @@ const Products = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-accent/30 rounded-xl mb-6">
                 <Users className="h-6 w-6 text-accent-foreground" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Team Collaboration</h3>
+              <h3 className="text-xl font-bold mb-3">Synthesis</h3>
               <p className="text-muted-foreground mb-4">
-                Multi-user features that enable teams to share relationship intelligence
-                and collaborate on networking strategies.
+                Advanced AI that synthesizes all your business intelligence to provide 
+                strategic insights and recommendations for long-term growth.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
-                <span>Roadmap</span>
+                <span>2028</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </div>
             </div>

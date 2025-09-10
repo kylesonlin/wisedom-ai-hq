@@ -14,7 +14,7 @@ const Hero = () => {
           {/* Company Badge */}
           <div className="inline-flex items-center px-6 py-3 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium backdrop-blur-sm">
             <span className="mr-2">💡</span>
-            Replace Your $5K Assistant With AI
+            Replace Your $5K Human Assistant With AI
           </div>
           
           {/* Main Headline */}
@@ -49,9 +49,9 @@ const Hero = () => {
           <div className="pt-16">
             <p className="text-sm text-muted-foreground mb-8">Join professionals who never miss an opportunity</p>
             <div className="flex flex-wrap items-center justify-center gap-8 opacity-80">
-              <div className="text-lg">$99/month vs $5,000/month</div>
+              <div className="text-lg">$300/month vs $5,000/month human assistant</div>
               <div className="text-lg">24/7 availability</div>
-              <div className="text-lg">Perfect memory</div>
+              <div className="text-lg">Reliable memory</div>
             </div>
           </div>
         </div>

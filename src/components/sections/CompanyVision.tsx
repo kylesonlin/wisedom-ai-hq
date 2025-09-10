@@ -76,16 +76,16 @@ const CompanyVision = () => {
                   <span className="text-sm bg-primary text-primary-foreground px-2 py-1 rounded">Live</span>
                 </div>
                 <div className="flex items-center justify-between p-3 bg-secondary/5 rounded-lg">
-                  <span className="font-medium">OpportunityOS</span>
-                  <span className="text-sm bg-secondary/20 text-secondary px-2 py-1 rounded">Q2 2024</span>
+                  <span className="font-medium">Closer</span>
+                  <span className="text-sm bg-secondary/20 text-secondary px-2 py-1 rounded">2026</span>
                 </div>
                 <div className="flex items-center justify-between p-3 bg-accent/20 rounded-lg">
-                  <span className="font-medium">IntelligenceOS</span>
-                  <span className="text-sm bg-accent/30 text-foreground px-2 py-1 rounded">Q4 2024</span>
+                  <span className="font-medium">Legacy</span>
+                  <span className="text-sm bg-accent/30 text-foreground px-2 py-1 rounded">2027</span>
                 </div>
                 <div className="flex items-center justify-between p-3 bg-muted/50 rounded-lg">
-                  <span className="font-medium">EnterpriseOS</span>
-                  <span className="text-sm bg-muted text-muted-foreground px-2 py-1 rounded">2025</span>
+                  <span className="font-medium">Synthesis</span>
+                  <span className="text-sm bg-muted text-muted-foreground px-2 py-1 rounded">2028</span>
                 </div>
               </div>
             </div>
