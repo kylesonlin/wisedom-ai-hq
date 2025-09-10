@@ -114,16 +114,13 @@ const About = () => {
               <p className="text-primary font-semibold mb-4">Founder & CEO</p>
               <div className="text-left space-y-4 max-w-3xl mx-auto">
                 <p className="text-muted-foreground">
-                  Kyle Sonlin is an entrepreneur, investor, and bestselling author who has been at the forefront of blockchain technology since 2015. As CEO of Global Settlement Network, he leads a blockchain and tokenization firm focused on compliant issuance of stablecoins and tokenized commodities cross-chain, collaborating with financial services companies on the cutting edge of capital markets.
+                  Kyle Sonlin has built companies that manage over $25 billion in assets and raised $6M+ across multiple ventures. As CEO of Global Settlement Network and General Partner of two investment funds, he operates at the intersection of blockchain, finance, and emerging technologies.
                 </p>
                 <p className="text-muted-foreground">
-                  Previously, Kyle built a private market securities index, STM, which exceeded $25 billion in assets. Across his career, he has raised over $6M in funding for his portfolio companies and serves as General Partner of two investment funds: Outliers Fund and Aurum Fund, both focused on the crypto industry.
+                  His #1 bestselling book is taught at Stanford, UCLA, and other leading universities. At 31, he became the youngest board member in the 65-year history of Miami's largest non-profit foundation.
                 </p>
                 <p className="text-muted-foreground">
-                  Kyle achieved critical acclaim as #1 bestselling co-author of "Blockchain Explained: Your Ultimate Guide to the Tokenization of Finance," widely adopted by universities nationwide including University of Miami, UCLA, Stanford University, and Florida International University's Graduate Law School, where he has lectured extensively.
-                </p>
-                <p className="text-muted-foreground">
-                  He is the youngest board member in the 65-year history of Camillus House, Miami's leading non-profit foundation, and supports various charitable organizations through the Sonlin Foundation. Kyle founded Wisedom.ai to solve the overwhelming challenge of managing thousands of relationships across our hyperconnected world, creating a personal operating system for relationships that transforms how we connect and grow.
+                  Wisedom.ai represents his latest venture in solving the fundamental challenge of human connection in our hyperconnected world.
                 </p>
               </div>
             </div>
