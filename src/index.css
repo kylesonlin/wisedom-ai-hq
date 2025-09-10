@@ -78,12 +78,13 @@
 @layer components {
   /* Corporate Typography Styles - Apple-Inspired */
   .text-hero {
-    @apply text-6xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none;
+    @apply text-6xl md:text-7xl lg:text-8xl font-black tracking-tight leading-tight;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     letter-spacing: -0.025em;
+    padding: 0.125rem 0;
   }
   
   .text-display {

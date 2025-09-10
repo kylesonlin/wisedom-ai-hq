@@ -19,7 +19,7 @@ const Hero = () => {
           
           {/* Main Headline */}
           <h1 className="text-hero max-w-5xl mx-auto">
-            Wake up knowing exactly who to call
+            Always know your next best call
           </h1>
           
           {/* Subheadline */}
