@@ -11,8 +11,8 @@ const ROIComparison = () => {
           </div>
           <h2 className="text-display mb-8">The Smart Choice is Clear</h2>
           <p className="text-corporate max-w-3xl mx-auto">
-            Why pay $60,000+ annually for limited human insights when you can get 
-            superhuman AI intelligence that never sleeps?
+            Compare the real costs: Traditional executive assistants vs. AI-powered relationship intelligence 
+            that works 24/7 at a fraction of the price.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ const ROIComparison = () => {
                 <span className="text-2xl">🤖</span>
               </div>
               <h3 className="text-2xl font-bold mb-2">Wisedom AI</h3>
-              <div className="text-4xl font-black text-primary mb-2">$49</div>
+              <div className="text-4xl font-black text-primary mb-2">$99-$599</div>
               <p className="text-muted-foreground">per month</p>
             </div>
 
@@ -101,8 +101,8 @@ const ROIComparison = () => {
 
             <div className="mt-8 pt-6 border-t border-primary/20">
               <div className="text-center">
-                <div className="text-lg font-semibold text-primary">Annual Cost: $588</div>
-                <p className="text-sm text-muted-foreground mt-1">99% cost savings vs. traditional assistant</p>
+                <div className="text-lg font-semibold text-primary">Annual Cost: $1,188-$7,188</div>
+                <p className="text-sm text-muted-foreground mt-1">Up to 88% cost savings vs. traditional assistant</p>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ const ROIComparison = () => {
         <div className="mt-20 text-center">
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="space-y-2">
-              <div className="text-4xl font-black text-primary">99%</div>
+              <div className="text-4xl font-black text-primary">88%</div>
               <div className="text-lg font-semibold">Cost Savings</div>
               <p className="text-sm text-muted-foreground">vs. Executive Assistant</p>
             </div>

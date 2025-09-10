@@ -10,7 +10,7 @@ const About = () => {
           <div className="text-center space-y-8 animate-fade-up">
             <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium">
               <span className="mr-2">🚀</span>
-              About Wisedom.ai
+              About Wisedom
             </div>
             <h1 className="text-hero max-w-4xl mx-auto">
               Pioneering the Future of AI Business Intelligence
@@ -31,9 +31,9 @@ const About = () => {
               <div>
                 <h2 className="text-display mb-6">Our Story</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Founded in 2024, Wisedom.ai emerged from a simple observation: the most successful 
+                  Wisedom emerged from a simple observation: the most successful 
                   businesses aren't just driven by data—they're powered by relationships. 
-                  Our founders recognized that while AI had revolutionized how we process information, 
+                  We recognized that while AI had revolutionized how we process information, 
                   it had barely scratched the surface of understanding human connections.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mt-4">
@@ -94,41 +94,20 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-display mb-6">Leadership Team</h2>
             <p className="text-corporate max-w-2xl mx-auto">
-              Meet the visionaries building the future of AI business intelligence
+              Our dedicated team is passionate about transforming how professionals 
+              manage and leverage their business relationships through AI
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="card-corporate text-center">
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="card-corporate">
               <div className="w-24 h-24 bg-gradient-to-br from-primary to-primary-glow rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-white font-bold text-2xl">JD</span>
+                <span className="text-white font-bold text-2xl">W</span>
               </div>
-              <h4 className="text-xl font-semibold mb-2">Jane Doe</h4>
-              <p className="text-primary font-medium mb-2">CEO & Co-Founder</p>
-              <p className="text-muted-foreground text-sm">
-                Former VP of AI at TechCorp, 15+ years in enterprise software and relationship intelligence
-              </p>
-            </div>
-
-            <div className="card-corporate text-center">
-              <div className="w-24 h-24 bg-gradient-to-br from-secondary to-secondary/80 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-secondary-foreground font-bold text-2xl">JS</span>
-              </div>
-              <h4 className="text-xl font-semibold mb-2">John Smith</h4>
-              <p className="text-secondary font-medium mb-2">CTO & Co-Founder</p>
-              <p className="text-muted-foreground text-sm">
-                Former Principal Engineer at Google, PhD in AI/ML with focus on relationship modeling
-              </p>
-            </div>
-
-            <div className="card-corporate text-center">
-              <div className="w-24 h-24 bg-gradient-to-br from-accent to-accent/80 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-2xl">AB</span>
-              </div>
-              <h4 className="text-xl font-semibold mb-2">Alice Brown</h4>
-              <p className="text-foreground font-medium mb-2">VP of Product</p>
-              <p className="text-muted-foreground text-sm">
-                Former Product Lead at LinkedIn, expert in social networks and user experience design
+              <h4 className="text-xl font-semibold mb-2">Wisedom Team</h4>
+              <p className="text-muted-foreground">
+                A passionate team of AI engineers, product designers, and business strategists 
+                working to transform how professionals manage and leverage their relationships.
               </p>
             </div>
           </div>

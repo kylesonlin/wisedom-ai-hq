@@ -112,7 +112,7 @@ const Company = () => {
       <section className="py-24 bg-muted/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-display mb-6">Why Join Wisedom.ai?</h2>
+            <h2 className="text-display mb-6">Why Join Wisedom?</h2>
             <p className="text-corporate max-w-2xl mx-auto">
               We believe great people do great work when they're empowered, supported, and inspired
             </p>
@@ -183,7 +183,7 @@ const Company = () => {
               <div>
                 <h2 className="text-display mb-6">Press & Media</h2>
                 <p className="text-corporate">
-                  Get the latest news about Wisedom.ai, access our press kit, 
+                  Get the latest news about Wisedom, access our press kit, 
                   and connect with our media relations team.
                 </p>
               </div>
@@ -203,19 +203,19 @@ const Company = () => {
               <h3 className="text-xl font-bold mb-6">Recent News</h3>
               <div className="space-y-4">
                 <div className="border-l-2 border-primary/30 pl-4">
-                  <h4 className="font-semibold">Series A Funding Announced</h4>
-                  <p className="text-sm text-muted-foreground">Wisedom.ai raises $25M to expand AI platform</p>
-                  <p className="text-xs text-muted-foreground mt-1">March 1, 2024</p>
+                  <h4 className="font-semibold">RelationshipOS Beta</h4>
+                  <p className="text-sm text-muted-foreground">Early access program launches for relationship intelligence platform</p>
+                  <p className="text-xs text-muted-foreground mt-1">2024</p>
                 </div>
                 <div className="border-l-2 border-secondary/30 pl-4">
-                  <h4 className="font-semibold">RelationshipOS Launches</h4>
-                  <p className="text-sm text-muted-foreground">Revolutionary relationship intelligence platform goes live</p>
-                  <p className="text-xs text-muted-foreground mt-1">February 15, 2024</p>
+                  <h4 className="font-semibold">AI Oracle Engine</h4>
+                  <p className="text-sm text-muted-foreground">Advanced AI query system for relationship insights</p>
+                  <p className="text-xs text-muted-foreground mt-1">2024</p>
                 </div>
                 <div className="border-l-2 border-accent/30 pl-4">
-                  <h4 className="font-semibold">Company Founded</h4>
-                  <p className="text-sm text-muted-foreground">Wisedom.ai officially incorporated</p>
-                  <p className="text-xs text-muted-foreground mt-1">January 1, 2024</p>
+                  <h4 className="font-semibold">Platform Development</h4>
+                  <p className="text-sm text-muted-foreground">Continuous improvement and feature expansion</p>
+                  <p className="text-xs text-muted-foreground mt-1">Ongoing</p>
                 </div>
               </div>
             </div>

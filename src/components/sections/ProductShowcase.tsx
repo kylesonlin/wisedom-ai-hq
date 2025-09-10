@@ -8,8 +8,8 @@ const ProductShowcase = () => {
         <div className="text-center mb-20">
           <h2 className="text-display mb-8">Meet RelationshipOS</h2>
           <p className="text-corporate max-w-3xl mx-auto">
-            Get the strategic relationship insights of a $60,000/year executive assistant — 
-            powered by AI, available 24/7, for just $49/month.
+            Get AI-powered relationship insights starting at $99/month — 
+            a fraction of the cost of a traditional executive assistant.
           </p>
         </div>
 
@@ -22,8 +22,14 @@ const ProductShowcase = () => {
             <h3 className="text-3xl font-bold mb-4">AI-Powered Relationship Intelligence</h3>
             <p className="text-lg text-muted-foreground mb-8">
               Discover hidden opportunities, strengthen connections, and accelerate growth 
-              with the world's most advanced relationship mapping technology.
+              with AI-powered relationship mapping and intelligence.
             </p>
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 mb-6">
+              <p className="text-sm text-muted-foreground">
+                <strong>Plans starting at $99/month:</strong> Personal Pro (100 Oracle queries, 500 contacts), 
+                Business ($299/month, unlimited), Enterprise ($599/month, advanced features)
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a 
                 href="https://app.relationshipos.ai" 
@@ -71,7 +77,7 @@ const ProductShowcase = () => {
             </div>
             <h4 className="text-xl font-semibold mb-3">Enterprise Security</h4>
             <p className="text-muted-foreground">
-              Bank-level security with SOC2 compliance, ensuring your sensitive 
+              Enterprise-grade security and encryption, ensuring your sensitive 
               relationship data is always protected.
             </p>
           </div>
@@ -83,7 +89,7 @@ const ProductShowcase = () => {
             <span className="mr-2">🔮</span>
             More AI Products Coming Soon
           </div>
-          <h3 className="text-2xl font-bold mb-4">The Wisedom.ai Platform</h3>
+          <h3 className="text-2xl font-bold mb-4">The Wisedom Platform</h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             RelationshipOS is just the beginning. We're building a comprehensive suite 
             of AI-powered business intelligence tools to transform every aspect of enterprise operations.

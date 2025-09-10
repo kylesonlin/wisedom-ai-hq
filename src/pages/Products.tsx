@@ -11,7 +11,7 @@ const Products = () => {
           <div className="text-center space-y-8 animate-fade-up">
             <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium">
               <Brain className="mr-2 h-4 w-4" />
-              Wisedom.ai Product Suite
+              Wisedom Product Suite
             </div>
             <h1 className="text-hero max-w-4xl mx-auto">
               AI-Powered Business Intelligence Products
@@ -36,8 +36,8 @@ const Products = () => {
                   </div>
                   <h2 className="text-4xl font-bold mb-4">RelationshipOS</h2>
                   <p className="text-xl text-muted-foreground">
-                    The world's most advanced relationship intelligence platform, powered by AI 
-                    to help you understand, manage, and leverage your professional network.
+                    AI-powered relationship intelligence platform that helps you understand, 
+                    manage, and leverage your professional network for better business outcomes.
                   </p>
                 </div>
 
@@ -60,7 +60,7 @@ const Products = () => {
                     <Shield className="h-5 w-5 text-accent-foreground mt-1" />
                     <div>
                       <h4 className="font-semibold">Enterprise Security</h4>
-                      <p className="text-muted-foreground text-sm">Bank-level security with SOC2 compliance</p>
+                      <p className="text-muted-foreground text-sm">Enterprise-grade security and data protection</p>
                     </div>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ const Products = () => {
               <Zap className="mr-2 h-4 w-4" />
               Coming Soon
             </div>
-            <h2 className="text-display mb-6">The Complete Wisedom.ai Platform</h2>
+            <h2 className="text-display mb-6">The Complete Wisedom Platform</h2>
             <p className="text-corporate max-w-3xl mx-auto">
               RelationshipOS is just the beginning. We're building a comprehensive ecosystem 
               of AI-powered business intelligence tools.
@@ -128,13 +128,13 @@ const Products = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-secondary/10 rounded-xl mb-6">
                 <TrendingUp className="h-6 w-6 text-secondary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">OpportunityOS</h3>
+              <h3 className="text-xl font-bold mb-3">Future Opportunities</h3>
               <p className="text-muted-foreground mb-4">
                 AI-powered opportunity detection that identifies potential partnerships, 
                 deals, and growth vectors within your network.
               </p>
-              <div className="inline-flex items-center text-secondary font-medium">
-                <span>Q2 2024</span>
+              <div className="inline-flex items-center text-muted-foreground font-medium">
+                <span>In Development</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </div>
             </div>
@@ -143,13 +143,13 @@ const Products = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-xl mb-6">
                 <Brain className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-3">IntelligenceOS</h3>
+              <h3 className="text-xl font-bold mb-3">Advanced Analytics</h3>
               <p className="text-muted-foreground mb-4">
-                Comprehensive business intelligence platform that unifies all your data 
-                sources into actionable insights and strategic recommendations.
+                Enhanced business intelligence features that provide deeper insights 
+                into your professional network and relationship dynamics.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
-                <span>Q4 2024</span>
+                <span>Coming Soon</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </div>
             </div>
@@ -158,13 +158,13 @@ const Products = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-accent/30 rounded-xl mb-6">
                 <Users className="h-6 w-6 text-accent-foreground" />
               </div>
-              <h3 className="text-xl font-bold mb-3">EnterpriseOS</h3>
+              <h3 className="text-xl font-bold mb-3">Team Collaboration</h3>
               <p className="text-muted-foreground mb-4">
-                Enterprise-grade AI platform that integrates all Wisedom.ai tools 
-                into a unified business intelligence ecosystem.
+                Multi-user features that enable teams to share relationship intelligence
+                and collaborate on networking strategies.
               </p>
               <div className="inline-flex items-center text-muted-foreground font-medium">
-                <span>2025</span>
+                <span>Roadmap</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </div>
             </div>

@@ -24,8 +24,8 @@ const Hero = () => {
           
           {/* Subheadline */}
           <p className="text-corporate max-w-3xl mx-auto">
-            Wisedom's AI-powered relationship intelligence delivers the strategic insights 
-            of a top executive assistant — at a fraction of the cost, with superhuman capabilities.
+            Replace your $5,000/month executive assistant with AI-powered relationship intelligence 
+            starting at $99/month - up to 88% cost savings with 24/7 availability.
           </p>
           
           {/* CTA Buttons */}
