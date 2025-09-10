@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Wisedom.ai Corporate Design System */
+/* Wisedom Corporate Design System - Think Different */
 @layer base {
   :root {
     /* Corporate Executive Color Palette */
@@ -76,13 +76,14 @@
 }
 
 @layer components {
-  /* Corporate Typography Styles */
+  /* Corporate Typography Styles - Apple-Inspired */
   .text-hero {
     @apply text-6xl md:text-7xl lg:text-8xl font-black tracking-tight leading-none;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    letter-spacing: -0.025em;
   }
   
   .text-display {
@@ -115,12 +116,13 @@
     transition: all 0.3s var(--ease-corporate);
   }
   
-  /* Corporate Cards */
+  /* Corporate Cards - Glass Morphism */
   .card-corporate {
-    @apply bg-card border border-border rounded-2xl p-8;
-    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 100%);
+    @apply bg-card/80 border border-border/50 rounded-3xl p-12;
+    background: linear-gradient(135deg, hsl(var(--card) / 0.8) 0%, hsl(var(--muted) / 0.6) 100%);
     box-shadow: var(--shadow-corporate);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
   }
   
   .card-glow {

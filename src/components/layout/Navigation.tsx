@@ -15,7 +15,7 @@ const Navigation = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">W</span>
             </div>
-            <span className="font-bold text-xl">Wisedom.ai</span>
+            <span className="font-bold text-xl">Wisedom</span>
           </Link>
 
           {/* Desktop Navigation */}

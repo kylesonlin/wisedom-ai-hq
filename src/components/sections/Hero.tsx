@@ -12,20 +12,20 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center space-y-8 animate-fade-up">
           {/* Company Badge */}
-          <div className="inline-flex items-center px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium">
-            <span className="mr-2">🚀</span>
-            Introducing the Future of Business Intelligence
+          <div className="inline-flex items-center px-6 py-3 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium backdrop-blur-sm">
+            <span className="mr-2">💡</span>
+            Replace Your $5,000/Month Executive Assistant
           </div>
           
           {/* Main Headline */}
           <h1 className="text-hero max-w-5xl mx-auto">
-            Transform Your Business with AI-Powered Intelligence
+            Think Different About Business Intelligence
           </h1>
           
           {/* Subheadline */}
           <p className="text-corporate max-w-3xl mx-auto">
-            Wisedom.ai revolutionizes how enterprises understand and leverage relationships, 
-            starting with RelationshipOS — the world's most advanced relationship intelligence platform.
+            Wisedom's AI-powered relationship intelligence delivers the strategic insights 
+            of a top executive assistant — at a fraction of the cost, with superhuman capabilities.
           </p>
           
           {/* CTA Buttons */}

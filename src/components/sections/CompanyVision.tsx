@@ -8,10 +8,10 @@ const CompanyVision = () => {
           {/* Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-display mb-6">The Future of AI Business Intelligence</h2>
+              <h2 className="text-display mb-8">Think Different About Intelligence</h2>
               <p className="text-corporate">
-                At Wisedom.ai, we envision a world where artificial intelligence doesn't just process data — 
-                it understands the intricate web of human relationships that drive every business forward.
+                At Wisedom, we believe the future belongs to businesses that harness AI not just for automation, 
+                but for the profound understanding of human relationships that drive every breakthrough.
               </p>
             </div>
 
@@ -23,8 +23,8 @@ const CompanyVision = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-2">Our Mission</h4>
                   <p className="text-muted-foreground">
-                    To democratize relationship intelligence and empower every business to unlock 
-                    the hidden potential within their networks.
+                    To democratize superhuman intelligence, making the insights of elite executive assistants 
+                    accessible to every business at revolutionary price points.
                   </p>
                 </div>
               </div>

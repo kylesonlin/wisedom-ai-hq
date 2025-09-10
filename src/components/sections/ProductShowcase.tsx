@@ -5,11 +5,11 @@ const ProductShowcase = () => {
   return (
     <section className="py-24 bg-gradient-to-b from-background to-muted/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-display mb-6">Meet RelationshipOS</h2>
+        <div className="text-center mb-20">
+          <h2 className="text-display mb-8">Meet RelationshipOS</h2>
           <p className="text-corporate max-w-3xl mx-auto">
-            Our flagship AI platform that transforms how you understand, manage, and leverage 
-            your professional relationships for unprecedented business growth.
+            Get the strategic relationship insights of a $60,000/year executive assistant — 
+            powered by AI, available 24/7, for just $49/month.
           </p>
         </div>
 
