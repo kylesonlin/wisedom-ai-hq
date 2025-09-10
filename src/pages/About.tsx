@@ -97,7 +97,7 @@ const About = () => {
             <h2 className="text-display mb-6">Leadership Team</h2>
             <p className="text-corporate max-w-2xl mx-auto">
               Our dedicated team is passionate about transforming how professionals 
-              manage and leverage their business relationships through AI
+              manage and leverage their business relationships
             </p>
           </div>
 
@@ -112,17 +112,6 @@ const About = () => {
               </div>
               <h4 className="text-2xl font-bold mb-2">Kyle Sonlin</h4>
               <p className="text-primary font-semibold mb-4">Founder & CEO</p>
-              <div className="text-left space-y-4 max-w-3xl mx-auto">
-                <p className="text-muted-foreground">
-                  Kyle Sonlin has built companies that manage over $25 billion in assets and raised $6M+ across multiple ventures. As CEO of Global Settlement Network and General Partner of two investment funds, he operates at the intersection of blockchain, finance, and emerging technologies.
-                </p>
-                <p className="text-muted-foreground">
-                  His #1 bestselling book is taught at Stanford, UCLA, and other leading universities. At 31, he became the youngest board member in the 65-year history of Miami's largest non-profit foundation.
-                </p>
-                <p className="text-muted-foreground">
-                  Wisedom.ai represents his latest venture in solving the fundamental challenge of human connection in our hyperconnected world.
-                </p>
-              </div>
             </div>
           </div>
         </div>
