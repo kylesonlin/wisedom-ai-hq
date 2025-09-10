@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">W</span>
               </div>
-              <span className="font-bold text-xl">Wisedom.ai</span>
+              <span className="font-bold text-xl">Wisedom</span>
             </div>
             <p className="text-muted-foreground">
               Transforming business intelligence with AI-powered relationship insights.
@@ -40,7 +40,7 @@ const Footer = () => {
                 RelationshipOS
               </Link>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
-                OpportunityOS (Coming Soon)
+                Future Opportunities (Coming Soon)
               </a>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
                 Enterprise Solutions
@@ -86,7 +86,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 Wisedom.ai. All rights reserved.
+            © 2024 Wisedom. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm mt-4 sm:mt-0">
             Built with ❤️ for the future of business intelligence

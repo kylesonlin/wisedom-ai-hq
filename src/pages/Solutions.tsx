@@ -18,7 +18,7 @@ const Solutions = () => {
             </h1>
             <p className="text-corporate max-w-3xl mx-auto">
               Whether you're a C-suite executive, sales leader, or entrepreneur, 
-              Wisedom.ai has tailored solutions to accelerate your growth.
+              Wisedom has tailored solutions to accelerate your growth.
             </p>
           </div>
         </div>
