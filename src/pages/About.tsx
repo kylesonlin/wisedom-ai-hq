@@ -101,16 +101,31 @@ const About = () => {
             </p>
           </div>
 
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="max-w-4xl mx-auto text-center">
             <div className="card-corporate">
-              <div className="w-24 h-24 bg-gradient-to-br from-primary to-primary-glow rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                <span className="text-white font-bold text-2xl">KS</span>
+              <div className="w-32 h-32 bg-gradient-to-br from-primary to-primary-glow rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="/lovable-uploads/cf03481e-7684-4920-8e53-e26cd12e70f9.png" 
+                  alt="Kyle Sonlin, Founder & CEO" 
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h4 className="text-xl font-semibold mb-2">Kyle Sonlin</h4>
-              <p className="text-secondary font-medium mb-2">Founder</p>
-              <p className="text-muted-foreground">
-                Kyle founded Wisedom.ai after experiencing firsthand the challenges of managing over 10,000 professional and personal contacts across companies, investments, and startups. His vision is to create a personal operating system for relationships that takes the work out of managing connections.
-              </p>
+              <h4 className="text-2xl font-bold mb-2">Kyle Sonlin</h4>
+              <p className="text-primary font-semibold mb-4">Founder & CEO</p>
+              <div className="text-left space-y-4 max-w-3xl mx-auto">
+                <p className="text-muted-foreground">
+                  Kyle Sonlin is an entrepreneur, investor, and bestselling author who has been at the forefront of blockchain technology since 2015. As CEO of Global Settlement Network, he leads a blockchain and tokenization firm focused on compliant issuance of stablecoins and tokenized commodities cross-chain, collaborating with financial services companies on the cutting edge of capital markets.
+                </p>
+                <p className="text-muted-foreground">
+                  Previously, Kyle built a private market securities index, STM, which exceeded $25 billion in assets. Across his career, he has raised over $6M in funding for his portfolio companies and serves as General Partner of two investment funds: Outliers Fund and Aurum Fund, both focused on the crypto industry.
+                </p>
+                <p className="text-muted-foreground">
+                  Kyle achieved critical acclaim as #1 bestselling co-author of "Blockchain Explained: Your Ultimate Guide to the Tokenization of Finance," widely adopted by universities nationwide including University of Miami, UCLA, Stanford University, and Florida International University's Graduate Law School, where he has lectured extensively.
+                </p>
+                <p className="text-muted-foreground">
+                  He is the youngest board member in the 65-year history of Camillus House, Miami's leading non-profit foundation, and supports various charitable organizations through the Sonlin Foundation. Kyle founded Wisedom.ai to solve the overwhelming challenge of managing thousands of relationships across our hyperconnected world, creating a personal operating system for relationships that transforms how we connect and grow.
+                </p>
+              </div>
             </div>
           </div>
         </div>
