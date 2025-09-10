@@ -19,7 +19,7 @@ const ProductShowcase = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-6">
               <Brain className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-3xl font-bold mb-4">Your Network, Supercharged</h3>
+            <h3 className="text-3xl font-bold mb-4">RelationshipOS: Your Network, Supercharged</h3>
             <p className="text-lg text-muted-foreground mb-8">
               Feel unstoppable knowing exactly who to reach out to, when, and why. 
               Every opportunity becomes visible. Every relationship becomes strategic.
@@ -37,7 +37,7 @@ const ProductShowcase = () => {
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center"
               >
-                Start Free Trial
+                Try RelationshipOS Free
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
               <Button variant="ghost" className="btn-ghost">

@@ -13,8 +13,8 @@ const Hero = () => {
         <div className="text-center space-y-8 animate-fade-up">
           {/* Company Badge */}
           <div className="inline-flex items-center px-6 py-3 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium backdrop-blur-sm">
-            <span className="mr-2">💡</span>
-            Replace Your $5K Human Assistant With AI
+            <span className="mr-2">🧠</span>
+            Wisedom's RelationshipOS
           </div>
           
           {/* Main Headline */}
