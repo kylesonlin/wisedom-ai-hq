@@ -2,6 +2,16 @@ import Footer from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Briefcase, Award, Users, MapPin, TrendingUp } from 'lucide-react';
 
+// Logo imports for showcase
+import wisedomBrain from '@/assets/wisedom-logo-brain.png';
+import wisedomGeometric from '@/assets/wisedom-logo-w-geometric.png';
+import wisedomOwl from '@/assets/wisedom-logo-owl.png';
+import wisedomLightbulb from '@/assets/wisedom-logo-lightbulb.png';
+import relationshipNetwork from '@/assets/relationshipos-logo-network.png';
+import relationshipCircles from '@/assets/relationshipos-logo-circles.png';
+import relationshipTerminal from '@/assets/relationshipos-logo-terminal.png';
+import relationshipMap from '@/assets/relationshipos-logo-map.png';
+
 const Company = () => {
   return (
     <main className="min-h-screen pt-16">
@@ -20,6 +30,73 @@ const Company = () => {
               Join a team of visionary engineers, designers, and business leaders 
               who are reshaping how the world understands and leverages relationships.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Logo Showcase Section */}
+      <section className="py-24 bg-muted/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-display mb-6">New Logo Options</h2>
+            <p className="text-corporate max-w-2xl mx-auto">
+              Here are the generated logo options for both Wisedom and RelationshipOS. 
+              Let me know which ones you prefer!
+            </p>
+          </div>
+
+          {/* Wisedom Logos */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-center mb-8">Wisedom Logo Options</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="card-corporate text-center p-6">
+                <img src={wisedomBrain} alt="Wisedom Brain Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Neural Network Brain</h4>
+                <p className="text-sm text-muted-foreground mt-2">Modern brain with connected nodes</p>
+              </div>
+              <div className="card-corporate text-center p-6">
+                <img src={wisedomGeometric} alt="Wisedom Geometric W Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Geometric W</h4>
+                <p className="text-sm text-muted-foreground mt-2">Clean, geometric letter design</p>
+              </div>
+              <div className="card-corporate text-center p-6">
+                <img src={wisedomOwl} alt="Wisedom Owl Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Tech Owl</h4>
+                <p className="text-sm text-muted-foreground mt-2">Wisdom symbol with tech elements</p>
+              </div>
+              <div className="card-corporate text-center p-6">
+                <img src={wisedomLightbulb} alt="Wisedom Lightbulb Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Neural Lightbulb</h4>
+                <p className="text-sm text-muted-foreground mt-2">Innovation with neural patterns</p>
+              </div>
+            </div>
+          </div>
+
+          {/* RelationshipOS Logos */}
+          <div>
+            <h3 className="text-2xl font-bold text-center mb-8">RelationshipOS Logo Options</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="card-corporate text-center p-6">
+                <img src={relationshipNetwork} alt="RelationshipOS Network Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Network Nodes</h4>
+                <p className="text-sm text-muted-foreground mt-2">Connected network visualization</p>
+              </div>
+              <div className="card-corporate text-center p-6">
+                <img src={relationshipCircles} alt="RelationshipOS Circles Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Interconnected Circles</h4>
+                <p className="text-sm text-muted-foreground mt-2">Overlapping relationship symbols</p>
+              </div>
+              <div className="card-corporate text-center p-6">
+                <img src={relationshipTerminal} alt="RelationshipOS Terminal Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Terminal Interface</h4>
+                <p className="text-sm text-muted-foreground mt-2">Developer-focused design</p>
+              </div>
+              <div className="card-corporate text-center p-6">
+                <img src={relationshipMap} alt="RelationshipOS Map Logo" className="w-32 h-32 mx-auto mb-4 object-contain" />
+                <h4 className="font-semibold">Relationship Map</h4>
+                <p className="text-sm text-muted-foreground mt-2">Abstract mapping visualization</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
