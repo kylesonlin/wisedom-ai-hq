@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import wisedomLogo from '@/assets/wisedom-logo-brain-black-bg.png';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +13,8 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">W</span>
+            <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center overflow-hidden">
+              <img src={wisedomLogo} alt="Wisedom" className="w-full h-full object-cover" />
             </div>
             <span className="font-bold text-xl">Wisedom</span>
           </Link>
