@@ -9,10 +9,10 @@ const ROIComparison = () => {
             <Calculator className="mr-2 h-4 w-4" />
             ROI Calculator
           </div>
-          <h2 className="text-display mb-8">The Smart Choice is Clear</h2>
+          <h2 className="text-display mb-8">Stop Feeling Scattered</h2>
           <p className="text-corporate max-w-3xl mx-auto">
-            Compare the real costs: Traditional executive assistants vs. AI-powered relationship intelligence 
-            that works 24/7 at a fraction of the price.
+            Imagine never again scrambling to remember who you met where, 
+            or missing opportunities because you forgot to follow up.
           </p>
         </div>
 

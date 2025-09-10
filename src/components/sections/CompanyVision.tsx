@@ -8,10 +8,10 @@ const CompanyVision = () => {
           {/* Content */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-display mb-8">Think Different About Intelligence</h2>
+              <h2 className="text-display mb-8">Feel the Future of Business</h2>
               <p className="text-corporate">
-                At Wisedom, we believe the future belongs to businesses that harness AI not just for automation, 
-                but for the profound understanding of human relationships that drive every breakthrough.
+                We're building a world where every professional feels superhuman — where AI amplifies 
+                your intuition, memory, and relationships to unlock opportunities you never saw coming.
               </p>
             </div>
 
@@ -23,8 +23,8 @@ const CompanyVision = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-2">Our Mission</h4>
                   <p className="text-muted-foreground">
-                    To democratize superhuman intelligence, making the insights of elite executive assistants 
-                    accessible to every business at revolutionary price points.
+                    Make every professional feel like they have a team of elite assistants working 24/7, 
+                    at a price that makes traditional solutions seem absurd.
                   </p>
                 </div>
               </div>
@@ -36,8 +36,8 @@ const CompanyVision = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-2">Innovation First</h4>
                   <p className="text-muted-foreground">
-                    We're pioneering the next generation of AI that understands not just what you know, 
-                    but who you know and how those connections can drive growth.
+                    Experience the excitement of AI that thinks like your best advisor, 
+                    remembers like your most organized assistant, and works like it never sleeps.
                   </p>
                 </div>
               </div>
@@ -49,8 +49,8 @@ const CompanyVision = () => {
                 <div>
                   <h4 className="text-lg font-semibold mb-2">Human-Centric AI</h4>
                   <p className="text-muted-foreground">
-                    Our technology amplifies human potential rather than replacing it, 
-                    making relationship building more strategic and impactful.
+                    Feel empowered, not replaced. Our AI makes you better at being human — 
+                    more connected, more strategic, more successful.
                   </p>
                 </div>
               </div>

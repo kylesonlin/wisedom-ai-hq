@@ -6,10 +6,10 @@ const ProductShowcase = () => {
     <section className="py-24 bg-gradient-to-b from-background to-muted/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-display mb-8">Meet RelationshipOS</h2>
+          <h2 className="text-display mb-8">Feel the Power of Perfect Memory</h2>
           <p className="text-corporate max-w-3xl mx-auto">
-            Get AI-powered relationship insights starting at $99/month — 
-            a fraction of the cost of a traditional executive assistant.
+            Experience the confidence that comes from having every connection, 
+            every detail, and every opportunity mapped in your mind.
           </p>
         </div>
 
@@ -19,15 +19,15 @@ const ProductShowcase = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-6">
               <Brain className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-3xl font-bold mb-4">AI-Powered Relationship Intelligence</h3>
+            <h3 className="text-3xl font-bold mb-4">Your Network, Supercharged</h3>
             <p className="text-lg text-muted-foreground mb-8">
-              Discover hidden opportunities, strengthen connections, and accelerate growth 
-              with AI-powered relationship mapping and intelligence.
+              Feel unstoppable knowing exactly who to reach out to, when, and why. 
+              Every opportunity becomes visible. Every relationship becomes strategic.
             </p>
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 mb-6">
               <p className="text-sm text-muted-foreground">
-                <strong>Plans starting at $99/month:</strong> Personal Pro (100 Oracle queries, 500 contacts), 
-                Business ($299/month, unlimited), Enterprise ($599/month, advanced features)
+                <strong>Starting at $99/month</strong> — less than what most spend on coffee, 
+                for intelligence that transforms how you do business.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -53,10 +53,10 @@ const ProductShowcase = () => {
             <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-xl mb-4">
               <Network className="h-6 w-6 text-primary" />
             </div>
-            <h4 className="text-xl font-semibold mb-3">Smart Network Mapping</h4>
+            <h4 className="text-xl font-semibold mb-3">See Every Connection That Matters</h4>
             <p className="text-muted-foreground">
-              Visualize your entire network with AI-powered insights that reveal 
-              hidden connections and opportunities.
+              Walk into any room knowing exactly who you need to meet and why. 
+              Feel the confidence of perfect preparation.
             </p>
           </div>
 
@@ -64,10 +64,10 @@ const ProductShowcase = () => {
             <div className="inline-flex items-center justify-center w-12 h-12 bg-secondary/10 rounded-xl mb-4">
               <TrendingUp className="h-6 w-6 text-secondary" />
             </div>
-            <h4 className="text-xl font-semibold mb-3">Growth Analytics</h4>
+            <h4 className="text-xl font-semibold mb-3">Know Where Opportunities Hide</h4>
             <p className="text-muted-foreground">
-              Track relationship strength, identify growth patterns, and measure 
-              the ROI of your networking efforts.
+              Experience the thrill of discovering hidden paths to success. 
+              Never wonder "what if" again.
             </p>
           </div>
 
@@ -75,10 +75,10 @@ const ProductShowcase = () => {
             <div className="inline-flex items-center justify-center w-12 h-12 bg-accent/30 rounded-xl mb-4">
               <Shield className="h-6 w-6 text-foreground" />
             </div>
-            <h4 className="text-xl font-semibold mb-3">Enterprise Security</h4>
+            <h4 className="text-xl font-semibold mb-3">Sleep Well at Night</h4>
             <p className="text-muted-foreground">
-              Enterprise-grade security and encryption, ensuring your sensitive 
-              relationship data is always protected.
+              Rest easy knowing your most valuable business data is protected 
+              by enterprise-grade security.
             </p>
           </div>
         </div>

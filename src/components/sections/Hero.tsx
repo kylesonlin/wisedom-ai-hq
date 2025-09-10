@@ -14,18 +14,18 @@ const Hero = () => {
           {/* Company Badge */}
           <div className="inline-flex items-center px-6 py-3 bg-primary/10 border border-primary/20 rounded-full text-primary font-medium backdrop-blur-sm">
             <span className="mr-2">💡</span>
-            Replace Your $5,000/Month Executive Assistant
+            Replace Your $5K Assistant With AI
           </div>
           
           {/* Main Headline */}
           <h1 className="text-hero max-w-5xl mx-auto">
-            Think Different About Business Intelligence
+            Wake up knowing exactly who to call
           </h1>
           
           {/* Subheadline */}
           <p className="text-corporate max-w-3xl mx-auto">
-            Replace your $5,000/month executive assistant with AI-powered relationship intelligence 
-            starting at $99/month - up to 88% cost savings with 24/7 availability.
+            Feel the confidence of having every relationship detail at your fingertips. 
+            Walk into meetings fully prepared. Never forget what matters.
           </p>
           
           {/* CTA Buttons */}
@@ -45,15 +45,13 @@ const Hero = () => {
             </Button>
           </div>
           
-          {/* Trust Indicators */}
+          {/* Benefits */}
           <div className="pt-16">
-            <p className="text-sm text-muted-foreground mb-8">Trusted by forward-thinking enterprises</p>
-            <div className="flex flex-wrap items-center justify-center gap-8 opacity-60">
-              <div className="text-2xl font-bold">TechCorp</div>
-              <div className="text-2xl font-bold">InnovateLab</div>
-              <div className="text-2xl font-bold">FutureScale</div>
-              <div className="text-2xl font-bold">AIVentures</div>
-              <div className="text-2xl font-bold">NextGen</div>
+            <p className="text-sm text-muted-foreground mb-8">Join professionals who never miss an opportunity</p>
+            <div className="flex flex-wrap items-center justify-center gap-8 opacity-80">
+              <div className="text-lg">$99/month vs $5,000/month</div>
+              <div className="text-lg">24/7 availability</div>
+              <div className="text-lg">Perfect memory</div>
             </div>
           </div>
         </div>
