@@ -14,7 +14,7 @@ const Company = () => {
               Join Our Team
             </div>
             <h1 className="text-hero max-w-4xl mx-auto">
-              Build the Future of AI with Us
+              Build the Future of Relationship Intelligence
             </h1>
             <p className="text-corporate max-w-3xl mx-auto">
               Join a team of visionary engineers, designers, and business leaders 
@@ -31,7 +31,7 @@ const Company = () => {
             <h2 className="text-display mb-6">Open Positions</h2>
             <p className="text-corporate max-w-2xl mx-auto">
               We're looking for exceptional talent to join our mission of democratizing 
-              relationship intelligence through AI
+              relationship intelligence for every business
             </p>
           </div>
 
@@ -39,13 +39,13 @@ const Company = () => {
             <div className="card-corporate hover:card-glow transition-all duration-300">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Senior AI Engineer</h3>
+                  <h3 className="text-xl font-bold mb-2">Senior Software Engineer</h3>
                   <p className="text-muted-foreground mb-4">
-                    Lead development of our core relationship intelligence algorithms and ML models
+                    Lead development of our core relationship intelligence platform and data systems
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">AI/ML</span>
-                    <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">Python</span>
+                    <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">Full-Stack</span>
+                    <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">React/Node.js</span>
                     <span className="px-3 py-1 bg-accent/20 text-accent-foreground rounded-full text-sm">Remote</span>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const Company = () => {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Product Designer</h3>
                   <p className="text-muted-foreground mb-4">
-                    Shape the user experience for next-generation AI business intelligence tools
+                    Shape the user experience for next-generation relationship intelligence tools
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">Design</span>
@@ -125,7 +125,7 @@ const Company = () => {
               </div>
               <h3 className="text-xl font-bold mb-4">Innovation First</h3>
               <p className="text-muted-foreground">
-                Work on cutting-edge AI technology that's reshaping business intelligence. 
+                Work on cutting-edge technology that's reshaping business intelligence. 
                 We give you the freedom to experiment and push boundaries.
               </p>
             </div>
@@ -147,8 +147,8 @@ const Company = () => {
               </div>
               <h3 className="text-xl font-bold mb-4">Growth Opportunity</h3>
               <p className="text-muted-foreground">
-                Join us at the ground floor of the AI revolution. Grow your career 
-                while building products that transform industries.
+                Join us at the ground floor of the relationship intelligence revolution. 
+                Grow your career while building products that transform how businesses network.
               </p>
             </div>
           </div>
@@ -203,13 +203,13 @@ const Company = () => {
               <h3 className="text-xl font-bold mb-6">Recent News</h3>
               <div className="space-y-4">
                 <div className="border-l-2 border-primary/30 pl-4">
-                  <h4 className="font-semibold">RelationshipOS Beta</h4>
-                  <p className="text-sm text-muted-foreground">Early access program launches for relationship intelligence platform</p>
+                  <h4 className="font-semibold">Meet the Drapers Season 7</h4>
+                  <p className="text-sm text-muted-foreground">Kyle Sonlin selected as finalist for prestigious pitch show in Miami Beach</p>
                   <p className="text-xs text-muted-foreground mt-1">2024</p>
                 </div>
                 <div className="border-l-2 border-secondary/30 pl-4">
-                  <h4 className="font-semibold">AI Oracle Engine</h4>
-                  <p className="text-sm text-muted-foreground">Advanced AI query system for relationship insights</p>
+                  <h4 className="font-semibold">RelationshipOS Launch</h4>
+                  <p className="text-sm text-muted-foreground">Public launch of relationship intelligence platform</p>
                   <p className="text-xs text-muted-foreground mt-1">2024</p>
                 </div>
                 <div className="border-l-2 border-accent/30 pl-4">

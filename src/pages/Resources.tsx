@@ -13,13 +13,13 @@ const Resources = () => {
               <BookOpen className="mr-2 h-4 w-4" />
               Knowledge Center
             </div>
-            <h1 className="text-hero max-w-4xl mx-auto">
-              Learn, Grow, and Succeed with AI
-            </h1>
-            <p className="text-corporate max-w-3xl mx-auto">
-              Explore our comprehensive library of resources, insights, and educational content 
-              to master the art of AI-powered business intelligence.
-            </p>
+              <h1 className="text-hero max-w-4xl mx-auto">
+                Learn, Grow, and Succeed with Relationship Intelligence
+              </h1>
+              <p className="text-corporate max-w-3xl mx-auto">
+                Explore our comprehensive library of resources, insights, and educational content 
+                to master the art of relationship intelligence and business networking.
+              </p>
           </div>
         </div>
       </section>
@@ -35,17 +35,17 @@ const Resources = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">Latest Blog Posts</h3>
               <p className="text-muted-foreground mb-6">
-                Stay updated with the latest insights on AI, relationship intelligence, 
-                and business strategy from our team of experts.
+                Stay updated with the latest insights on relationship intelligence, 
+                networking strategies, and business growth from our founder and team.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="border-l-2 border-primary/30 pl-4">
-                  <h4 className="font-semibold">The Future of AI in Business Relationships</h4>
-                  <p className="text-sm text-muted-foreground">How AI is transforming professional networking</p>
+                  <h4 className="font-semibold">The Future of Business Relationships</h4>
+                  <p className="text-sm text-muted-foreground">How technology is transforming professional networking</p>
                 </div>
                 <div className="border-l-2 border-secondary/30 pl-4">
-                  <h4 className="font-semibold">Building Strategic Partnerships with AI</h4>
-                  <p className="text-sm text-muted-foreground">Leverage data to identify key opportunities</p>
+                  <h4 className="font-semibold">Building Strategic Partnerships</h4>
+                  <p className="text-sm text-muted-foreground">Leverage relationship intelligence to identify key opportunities</p>
                 </div>
                 <div className="border-l-2 border-accent/30 pl-4">
                   <h4 className="font-semibold">ROI of Relationship Intelligence</h4>
@@ -95,29 +95,29 @@ const Resources = () => {
               </div>
               <h3 className="text-2xl font-bold mb-4">Webinars & Events</h3>
               <p className="text-muted-foreground mb-6">
-                Join our experts for live sessions, product demonstrations, 
-                and deep-dive discussions on AI business intelligence.
+                Learn from our founder's journey, including his experience as a finalist 
+                on Meet the Drapers Season 7 pitch show in Miami Beach.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="flex items-start space-x-3">
-                  <Calendar className="h-5 w-5 text-primary mt-1" />
+                  <Video className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h4 className="font-semibold">Mastering RelationshipOS</h4>
-                    <p className="text-sm text-muted-foreground">March 15, 2024 • 2:00 PM EST</p>
+                    <h4 className="font-semibold">Meet the Drapers Appearance</h4>
+                    <p className="text-sm text-muted-foreground">Kyle Sonlin • Season 7 Finalist • Miami Beach</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Calendar className="h-5 w-5 text-secondary mt-1" />
                   <div>
-                    <h4 className="font-semibold">AI Strategy Workshop</h4>
-                    <p className="text-sm text-muted-foreground">March 22, 2024 • 1:00 PM EST</p>
+                    <h4 className="font-semibold">RelationshipOS Demo Sessions</h4>
+                    <p className="text-sm text-muted-foreground">Schedule a personalized product walkthrough</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Calendar className="h-5 w-5 text-accent-foreground mt-1" />
                   <div>
-                    <h4 className="font-semibold">Enterprise Implementation</h4>
-                    <p className="text-sm text-muted-foreground">March 29, 2024 • 3:00 PM EST</p>
+                    <h4 className="font-semibold">Founder Office Hours</h4>
+                    <p className="text-sm text-muted-foreground">Monthly Q&A sessions with Kyle Sonlin</p>
                   </div>
                 </div>
               </div>
