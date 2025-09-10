@@ -1,6 +1,6 @@
 import Footer from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Brain, Network, TrendingUp, Shield, Zap, Users } from 'lucide-react';
+import { ArrowRight, Brain, Network, TrendingUp, Shield, Zap, Users, Check } from 'lucide-react';
 
 const Products = () => {
   return (
@@ -88,25 +88,12 @@ const Products = () => {
               </div>
 
               <div className="relative">
-                <div className="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-8 border border-primary/30">
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-between p-4 bg-background/10 rounded-lg backdrop-blur-sm">
-                      <span className="font-medium">Network Analysis</span>
-                      <span className="text-primary">●</span>
-                    </div>
-                    <div className="flex items-center justify-between p-4 bg-background/10 rounded-lg backdrop-blur-sm">
-                      <span className="font-medium">Relationship Tracking</span>
-                      <span className="text-secondary">●</span>
-                    </div>
-                    <div className="flex items-center justify-between p-4 bg-background/10 rounded-lg backdrop-blur-sm">
-                      <span className="font-medium">Opportunity Detection</span>
-                      <span className="text-primary">●</span>
-                    </div>
-                    <div className="flex items-center justify-between p-4 bg-background/10 rounded-lg backdrop-blur-sm">
-                      <span className="font-medium">Growth Insights</span>
-                      <span className="text-secondary">●</span>
-                    </div>
-                  </div>
+                <div className="rounded-2xl overflow-hidden border border-primary/20 shadow-2xl">
+                  <img 
+                    src="/lovable-uploads/a1d8ca80-5a5a-44e5-8b69-13cc73bb5e80.png" 
+                    alt="RelationshipOS Interface - AI-Powered Relationship Management" 
+                    className="w-full h-auto"
+                  />
                 </div>
               </div>
             </div>
@@ -172,6 +159,98 @@ const Products = () => {
               <div className="inline-flex items-center text-muted-foreground font-medium">
                 <span>2028</span>
                 <ArrowRight className="ml-2 h-4 w-4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Product Screenshots Showcase */}
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-display mb-6">See RelationshipOS in Action</h2>
+            <p className="text-corporate max-w-3xl mx-auto">
+              Experience the power of AI-driven relationship intelligence through our comprehensive platform
+            </p>
+          </div>
+
+          <div className="space-y-16">
+            {/* AI Oracle Insights */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <div className="inline-flex items-center px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                  AI Oracle
+                </div>
+                <h3 className="text-3xl font-bold">Get Strategic Insights Instantly</h3>
+                <p className="text-lg text-muted-foreground">
+                  Ask your AI Oracle questions about your relationships and get intelligent, 
+                  context-aware responses that help you make better networking decisions.
+                </p>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li className="flex items-center"><Check className="h-4 w-4 text-primary mr-2" />Who should I prioritize this week?</li>
+                  <li className="flex items-center"><Check className="h-4 w-4 text-primary mr-2" />What's the context for my meetings?</li>
+                  <li className="flex items-center"><Check className="h-4 w-4 text-primary mr-2" />Which relationships need attention?</li>
+                </ul>
+              </div>
+              <div className="rounded-2xl overflow-hidden border border-primary/20 shadow-2xl">
+                <img 
+                  src="/lovable-uploads/a7dfe688-502f-4e65-8571-fe5ade45cc1c.png" 
+                  alt="AI Oracle Insights - Get intelligent relationship recommendations" 
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            {/* Meeting Preparation */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="order-2 lg:order-1 rounded-2xl overflow-hidden border border-primary/20 shadow-2xl">
+                <img 
+                  src="/lovable-uploads/8db71225-c4bd-4165-b30d-24fafcf10f83.png" 
+                  alt="AI Meeting Preparation - Intelligent briefings and context" 
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="order-1 lg:order-2 space-y-6">
+                <div className="inline-flex items-center px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm font-medium">
+                  Meeting Prep
+                </div>
+                <h3 className="text-3xl font-bold">Never Walk Into Meetings Unprepared</h3>
+                <p className="text-lg text-muted-foreground">
+                  Get intelligent briefings with context, talking points, and relationship insights 
+                  automatically generated for every meeting.
+                </p>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li className="flex items-center"><Check className="h-4 w-4 text-secondary mr-2" />Auto-generated meeting briefs</li>
+                  <li className="flex items-center"><Check className="h-4 w-4 text-secondary mr-2" />Relationship history and context</li>
+                  <li className="flex items-center"><Check className="h-4 w-4 text-secondary mr-2" />Strategic talking points</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Follow-up Automation */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <div className="inline-flex items-center px-3 py-1 bg-accent/30 text-accent-foreground rounded-full text-sm font-medium">
+                  Automation
+                </div>
+                <h3 className="text-3xl font-bold">Smart Follow-up Management</h3>
+                <p className="text-lg text-muted-foreground">
+                  Never miss important follow-ups again. Our AI automatically suggests and schedules 
+                  relationship maintenance activities based on your communication patterns.
+                </p>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li className="flex items-center"><Check className="h-4 w-4 text-accent-foreground mr-2" />Automated follow-up suggestions</li>
+                  <li className="flex items-center"><Check className="h-4 w-4 text-accent-foreground mr-2" />Priority-based scheduling</li>
+                  <li className="flex items-center"><Check className="h-4 w-4 text-accent-foreground mr-2" />82% average response rate</li>
+                </ul>
+              </div>
+              <div className="rounded-2xl overflow-hidden border border-primary/20 shadow-2xl">
+                <img 
+                  src="/lovable-uploads/3fc312e2-5e53-49e9-92a5-f35e142418ba.png" 
+                  alt="Follow-up Automation - Smart relationship maintenance" 
+                  className="w-full h-auto"
+                />
               </div>
             </div>
           </div>

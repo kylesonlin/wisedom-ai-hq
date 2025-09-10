@@ -108,23 +108,47 @@ const ROIComparison = () => {
           </div>
         </div>
 
-        {/* ROI Stats */}
-        <div className="mt-20 text-center">
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="space-y-2">
-              <div className="text-4xl font-black text-primary">94%</div>
-              <div className="text-lg font-semibold">Cost Savings</div>
-              <p className="text-sm text-muted-foreground">vs. Human Assistant</p>
+        {/* ROI Dashboard Showcase */}
+        <div className="mt-20">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl font-bold mb-4">Real Executive ROI Dashboard</h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              See the measurable business impact your AI team delivers vs. traditional $5,000/month VA
+            </p>
+          </div>
+          
+          <div className="max-w-5xl mx-auto">
+            <div className="rounded-2xl overflow-hidden border border-primary/20 shadow-2xl">
+              <img 
+                src="/lovable-uploads/52c43199-b9df-4e14-9073-569728f73070.png" 
+                alt="Executive ROI Dashboard showing $4,901 monthly savings and 4,951% annual ROI" 
+                className="w-full h-auto"
+              />
             </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-black text-secondary">24/7</div>
-              <div className="text-lg font-semibold">Availability</div>
-              <p className="text-sm text-muted-foreground">Never stops working</p>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-black text-primary">∞</div>
-              <div className="text-lg font-semibold">Scalability</div>
-              <p className="text-sm text-muted-foreground">Grows with your business</p>
+          </div>
+
+          <div className="mt-12 text-center">
+            <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+              <div className="space-y-2">
+                <div className="text-3xl font-black text-primary">$4,901</div>
+                <div className="text-lg font-semibold">Monthly Savings</div>
+                <p className="text-sm text-muted-foreground">98% cost reduction</p>
+              </div>
+              <div className="space-y-2">
+                <div className="text-3xl font-black text-secondary">15</div>
+                <div className="text-lg font-semibold">Tasks Automated</div>
+                <p className="text-sm text-muted-foreground">Daily operations</p>
+              </div>
+              <div className="space-y-2">
+                <div className="text-3xl font-black text-primary">5h</div>
+                <div className="text-lg font-semibold">Weekly Time Saved</div>
+                <p className="text-sm text-muted-foreground">Executive focus time</p>
+              </div>
+              <div className="space-y-2">
+                <div className="text-3xl font-black text-secondary">4,951%</div>
+                <div className="text-lg font-semibold">Annual ROI</div>
+                <p className="text-sm text-muted-foreground">$58,812 savings</p>
+              </div>
             </div>
           </div>
         </div>
